@@ -1,0 +1,81 @@
+.wrapper {
+    background-image: url(img/stars-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    position: relative;
+}
+
+.content {
+    position: relative;
+}
+
+.plane {
+    position: absolute;
+    bottom: 250px;
+    left: 180px;
+    width: 50px;
+    transition: transform 3s ease-in-out;
+    transition-delay: 1s;
+}
+
+.content:hover .plane {
+    transform: translate(0px, 240px);
+}
+
+.plane:nth-child(2) {
+    transition-delay: .2s;
+}
+
+.content:hover .plane:nth-child(2) {
+    transform: translate(0px, -240px);
+}
+
+.plane:nth-child(3) {
+    transition-delay: .4s;
+}
+
+.content:hover .plane:nth-child(3) {
+    transform: translate(240px, 0px);
+}
+
+.plane:nth-child(4) {
+    transition-delay: .6s;
+}
+
+.content:hover .plane:nth-child(4) {
+    transform: translate(-240px, 0px);
+}
+
+.plane:nth-child(5) {
+    transition-delay: .8s;
+}
+
+.content:hover .plane:nth-child(5) {
+    transform: translate(-240px, 240px);
+}
+
+.plane:nth-child(6) {
+    transition-delay: 1s;
+}
+
+.content:hover .plane:nth-child(6) {
+    transform: translate(240px, 240px);
+}
+
+.plane:nth-child(7) {
+    transition-delay: 1.2s;
+}
+
+.content:hover .plane:nth-child(7) {
+    transform: translate(240px, -240px);
+}
+
+.plane:nth-child(8) {
+    transition-delay: 1.4s;
+}
+
+.content:hover .plane:nth-child(8) {
+    transform: translate(-240px, -240px);
+}
