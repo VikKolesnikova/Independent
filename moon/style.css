@@ -1,5 +1,5 @@
 .wrapper {
-    background-image: url(img/stars-bg.png);
+    background-image: url(https://kipmu.ru/wp-content/uploads/pchkchnnszvz.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
 
 .plane {
     position: absolute;
-    bottom: 250px;
+    bottom: 300px;
     left: 180px;
     width: 50px;
     transition: transform 3s ease-in-out;
