@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 700px;
     position: relative;
 }
 
@@ -14,7 +14,7 @@
 .plane {
     position: absolute;
     bottom: 200px;
-    left: 200px;
+    left: 180px;
     width: 50px;
     transition: transform 3s ease-in-out;
     transition-delay: 4s;
@@ -57,7 +57,7 @@
 }
 
 .plane:nth-child(6) {
-    transition-delay: 1s;
+    transition-delay: 2s;
 }
 
 .content:hover .plane:nth-child(6) {
@@ -65,7 +65,7 @@
 }
 
 .plane:nth-child(7) {
-    transition-delay: 1.2s;
+    transition-delay: 2s;
 }
 
 .content:hover .plane:nth-child(7) {
