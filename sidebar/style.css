@@ -6,9 +6,9 @@
 }
 
 .sidebar__row {
-    background-color: rgb(255, 0, 106);
-    width: 80px;
-    padding: 40px 0px;
+    background-color: rgb(255, 0, 221);
+    width: 90px;
+    padding: 50px 0px;
     transition: width .4s linear;
 }
 
@@ -23,7 +23,7 @@ i, .about__text {
 }
 
 .about__text {
-    padding-left: 20px;
+    padding-left: 30px;
     position: absolute;
     z-index: -1;
     text-indent: -2em;
@@ -42,5 +42,5 @@ i, .about__text {
 }
 
 .sidebar__row:hover {
-    width: 300px;
+    width: 400px;
 }
