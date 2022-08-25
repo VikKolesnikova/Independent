@@ -8,14 +8,14 @@
 .sidebar__row {
     background-color: rgba(255, 0, 221, 0.772);
     width: 90px;
-    padding: 50px 0px;
+    padding: 60px 0px;
     transition: width .4s linear;
 }
 
 .sidebar___about {
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 i, .about__text {
@@ -23,7 +23,7 @@ i, .about__text {
 }
 
 .about__text {
-    padding-left: 30px;
+    padding-left: 40px;
     position: absolute;
     z-index: -1;
     text-indent: -2em;
@@ -38,7 +38,7 @@ i, .about__text {
 .sidebar__row:hover>.sidebar___about>.about__text {
     text-indent: 0em;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .sidebar__row:hover {
